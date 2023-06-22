@@ -1,7 +1,6 @@
 import { createStore, createHook, createSubscriber } from 'react-sweet-state';
 import ThemeType from '../types/themeType';
 import { app } from '../config/app';
-import mobileLight from '../theme/light/mobileLight';
 
 const Store = createStore({
 	initialState: {
